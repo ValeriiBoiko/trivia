@@ -41,4 +41,4 @@ export const colors = {
     LIGHT_10: '#FFFFFF',
     LIGHT_20: '#FFFBFA',
   },
-};
+} as const;
