@@ -1,8 +1,8 @@
+import RootNavigator from '@navigation/RootNavigator';
 import React from 'react';
-import {View} from 'react-native';
 
 function App(): JSX.Element {
-  return <View />;
+  return <RootNavigator />;
 }
 
 export default App;
