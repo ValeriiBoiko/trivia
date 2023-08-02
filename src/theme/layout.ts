@@ -2,8 +2,8 @@ import {Dimensions} from 'react-native';
 
 const {width, height} = Dimensions.get('window');
 
-const BASE_WIDTH = 375;
-const BASE_HEIGHT = 667;
+const BASE_WIDTH = 380;
+const BASE_HEIGHT = 812;
 const widthRelation = width / BASE_WIDTH;
 const heightRelation = height / BASE_HEIGHT;
 
