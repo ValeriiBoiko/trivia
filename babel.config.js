@@ -14,6 +14,7 @@ module.exports = {
           '.json',
           '.ts',
           '.tsx',
+          '.svg',
         ],
         root: ['.'],
         alias: {
