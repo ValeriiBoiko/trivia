@@ -50,9 +50,11 @@ const LevelSettings: FC<TLevelSettingsProps> = ({navigation}) => {
   });
 
   const onChangeAmount = (amount: string) => {
+    const value = amount.replace(/\D/g, '');
+
     setValues(values => ({
       ...values,
-      amount: +amount > 10 ? '10' : amount,
+      amount: +value > 10 ? '10' : value,
     }));
   };
 
@@ -118,6 +120,7 @@ const LevelSettings: FC<TLevelSettingsProps> = ({navigation}) => {
             maxLength={2}
             value={values.amount}
             placeholder={'10'}
+            keyboardType={'numeric'}
             placeholderTextColor={colors.SECONDARY_10}
             onChangeText={onChangeAmount}
           />
