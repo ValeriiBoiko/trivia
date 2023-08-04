@@ -29,6 +29,7 @@ const HomeNavigator = () => {
         name={Routes.HOME_LEVEL_SETTINGS}
         component={LevelSettings}
       />
+      <Stack.Screen name={Routes.HOME_GAMEPLAY} component={() => null} />
     </Stack.Navigator>
   );
 };

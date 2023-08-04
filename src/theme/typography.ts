@@ -1,14 +1,15 @@
+import {StyleSheet} from 'react-native';
 import {scaleFontSize} from './layout';
 
 export const Font = {
   PRIMARY_BOLD: 'Quicksand-Bold',
   PRIMARY_MEDIUM: 'Quicksand-Medium',
-  SECONDARY_THIN: 'Comfortaa-Bold',
+  SECONDARY_BOLD: 'Comfortaa-Bold',
 } as const;
 
-export const Typography = {
+export const Typography = StyleSheet.create({
   headline1: {
-    fontFamily: Font.PRIMARY_MEDIUM,
+    fontFamily: Font.PRIMARY_BOLD,
     fontSize: scaleFontSize(31, 0.5),
     lineHeight: scaleFontSize(31 * 1.3, 0.5),
   },
@@ -23,6 +24,11 @@ export const Typography = {
     lineHeight: scaleFontSize(25 * 1.3, 0.5),
   },
   headline4: {
+    fontFamily: Font.PRIMARY_BOLD,
+    fontSize: scaleFontSize(20, 0.5),
+    lineHeight: scaleFontSize(20 * 1.3, 0.5),
+  },
+  headline5: {
     fontFamily: Font.PRIMARY_MEDIUM,
     fontSize: scaleFontSize(18, 0.5),
     lineHeight: scaleFontSize(18 * 1.3, 0.5),
@@ -42,4 +48,4 @@ export const Typography = {
     fontSize: scaleFontSize(15, 0.5),
     lineHeight: scaleFontSize(15 * 1.3, 0.5),
   },
-} as const;
+});
