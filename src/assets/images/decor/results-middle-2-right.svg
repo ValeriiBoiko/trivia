@@ -1,0 +1,22 @@
+<svg width="17" height="66" viewBox="0 0 17 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_39_33)">
+<g opacity="0.6">
+<mask id="mask0_39_33" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-56" width="103" height="147">
+<ellipse cx="51.5002" cy="17.5003" rx="47.5" ry="75.5" transform="rotate(17.4943 51.5002 17.5003)" fill="#4953BE"/>
+</mask>
+<g mask="url(#mask0_39_33)">
+<rect width="193.596" height="3.89" transform="matrix(0.870983 0.491313 -0.606392 0.795166 11.2777 8.31055)" fill="#F7A491"/>
+<rect width="193.596" height="3.89" transform="matrix(0.870983 0.491313 -0.606392 0.795166 17.2069 0.5354)" fill="#F7A491"/>
+<rect width="193.596" height="3.89" transform="matrix(0.870983 0.491313 -0.606392 0.795166 5.34839 16.0857)" fill="#F7A491"/>
+<rect width="193.596" height="3.89" transform="matrix(0.870983 0.491313 -0.606392 0.795166 -0.580811 28.8606)" fill="#F7A491"/>
+<rect width="193.596" height="3.89" transform="matrix(0.870983 0.491313 -0.606392 0.795166 -6.51001 36.6359)" fill="#F7A491"/>
+<rect width="193.596" height="3.89" transform="matrix(0.870983 0.491313 -0.606392 0.795166 -12.4395 44.4109)" fill="#F7A491"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_39_33">
+<rect width="17" height="66" fill="white"/>
+</clipPath>
+</defs>
+</svg>
