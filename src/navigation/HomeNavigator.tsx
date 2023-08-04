@@ -5,6 +5,7 @@ import {
 } from '@react-navigation/native-stack';
 import {Routes} from './routes';
 import LevelSettings from '@screens/LevelSettings';
+import Gameplay from '@screens/Gameplay';
 
 export type THomeNavigatorScreens = {
   [Routes.HOME_LEVEL_SETTINGS]: undefined;
@@ -29,7 +30,8 @@ const HomeNavigator = () => {
         name={Routes.HOME_LEVEL_SETTINGS}
         component={LevelSettings}
       />
-      <Stack.Screen name={Routes.HOME_GAMEPLAY} component={() => null} />
+      <Stack.Screen name={Routes.HOME_GAMEPLAY} component={Gameplay} />
+      <Stack.Screen name={Routes.HOME_RESULTS} component={() => null} />
     </Stack.Navigator>
   );
 };
