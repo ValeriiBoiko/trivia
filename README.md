@@ -1,4 +1,8 @@
 # Trivia (FireartStudio)
+## Demo
+Android Demo GIF           |  IOS Demo Gif
+:-------------------------:|:-------------------------:
+![](https://github.com/ValeriiBoiko/trivia/blob/main/android-demo.gif)  |  ![](https://github.com/ValeriiBoiko/trivia/blob/main/ios-demo.gif)
 
 ## How to start
 
