@@ -30,6 +30,9 @@ const getButtonStyles = ({
   };
 
   return StyleSheet.create({
+    disabled: {
+      opacity: 0.75,
+    },
     handler: {
       borderRadius: scaleWidth(14),
       height: scaleHeight(64, 0.5),

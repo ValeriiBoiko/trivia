@@ -13,6 +13,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import useColors from '@hooks/useColors';
 
 type TButtonProps = {
+  disabled?: boolean;
   title?: string;
   type?: 'primary' | 'secondary';
   variant?: 'solid' | 'outlined';
@@ -24,6 +25,7 @@ const Button: FC<TButtonProps> = ({
   title = '',
   type = 'primary',
   variant = 'solid',
+  disabled,
   style,
   onPress,
 }) => {
@@ -46,7 +48,7 @@ const Button: FC<TButtonProps> = ({
       }
     }
 
-    return ['transparent'];
+    return ['transparent', 'transparent'];
   }, [variant, type, colors]);
 
   const gradientLocation = useMemo(
@@ -64,10 +66,13 @@ const Button: FC<TButtonProps> = ({
   ];
 
   return (
-    <View style={style}>
+    <View style={StyleSheet.compose(disabled && styles.disabled, style)}>
       <View style={variant === 'solid' && styles.shadow} />
 
-      <Pressable style={composehandlerStyles} onPress={onPress}>
+      <Pressable
+        disabled={disabled}
+        style={composehandlerStyles}
+        onPress={onPress}>
         <LinearGradient
           colors={buttonColors}
           end={gradientLocation.end}
@@ -80,4 +85,4 @@ const Button: FC<TButtonProps> = ({
   );
 };
 
-export default Button;
+export default React.memo(Button);
