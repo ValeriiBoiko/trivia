@@ -6,6 +6,7 @@ import {
 import {Routes} from './routes';
 import LevelSettings from '@screens/LevelSettings';
 import Gameplay from '@screens/Gameplay';
+import Results from '@screens/Results';
 
 export type THomeNavigatorScreens = {
   [Routes.HOME_LEVEL_SETTINGS]: undefined;
@@ -31,7 +32,7 @@ const HomeNavigator = () => {
         component={LevelSettings}
       />
       <Stack.Screen name={Routes.HOME_GAMEPLAY} component={Gameplay} />
-      <Stack.Screen name={Routes.HOME_RESULTS} component={() => null} />
+      <Stack.Screen name={Routes.HOME_RESULTS} component={Results} />
     </Stack.Navigator>
   );
 };
