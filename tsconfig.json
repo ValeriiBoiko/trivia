@@ -8,7 +8,9 @@
       "@screens/*": ["src/screens/*"],
       "@assets/*": ["src/assets/*"],
       "@hooks/*": ["src/hooks/*"],
-      "@theme/*": ["src/theme/*"]
+      "@theme/*": ["src/theme/*"],
+      "@store/*": ["src/store/*"],
+      "@api/*": ["src/api/*"]
     }
   }
 }
