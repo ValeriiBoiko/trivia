@@ -1,6 +1,6 @@
 # Trivia (FireartStudio)
 ## Demo
-Android Demo GIF           |  IOS Demo Gif
+Android Demo GIF ([link](https://github.com/ValeriiBoiko/trivia/blob/main/android-demo.gif))           |  IOS Demo Gif ([link](https://github.com/ValeriiBoiko/trivia/blob/main/ios-demo.gif))
 :-------------------------:|:-------------------------:
 ![](https://github.com/ValeriiBoiko/trivia/blob/main/android-demo.gif)  |  ![](https://github.com/ValeriiBoiko/trivia/blob/main/ios-demo.gif)
 
